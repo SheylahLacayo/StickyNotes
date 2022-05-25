@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Jost&family=Manrope&family=Nunito&display=swap" rel="stylesheet">
+    <title>Sticky Notes</title>
+</head>
+
+<body>
+    
+    <div id="stickies-container"></div>
+    <div class="sticky-form">
+        <label for="stickytitle">Título</label>
+        <input type="text" name="stickytitle" id="stickytitle"/>
+        <label for="stickytext">Escribe algo</label>
+        <textarea
+            name="stickytext"
+            id="stickytext"
+            cols="24"
+            rows="10"
+        ></textarea>
+        <button class="button" id="createsticky">Agregar</button>
+    </div>
+
+</body>
+
+</html>
